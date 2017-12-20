@@ -1,0 +1,48 @@
+{
+  "name": "meetyou-backstage-cli",
+  "version": "0.0.1",
+  "description": "command of meetyou backstage",
+  "main": "index.js",
+  "scripts": {
+    "help": "node ./index.js -h",
+    "version": "node ./index.js -v",
+    "upgrade": "node ./index.js upgrade",
+    "create": "node ./index.js create meetyouBackstageDemo master"
+  },
+  "bin": {
+    "meetyou-backstage": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youpinyao/meetyou-backstage-cli.git"
+  },
+  "keywords": [
+    "meetyou",
+    "angular",
+    "antd",
+    "react",
+    "cli",
+    "command"
+  ],
+  "author": "youpinyao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youpinyao/meetyou-backstage-cli/issues"
+  },
+  "homepage": "https://github.com/youpinyao/meetyou-backstage-cli#readme",
+  "dependencies": {
+    "chalk": "2.0.1",
+    "cli-spinners": "1.0.0",
+    "decompress": "4.2.0",
+    "del": "3.0.0",
+    "exec-series": "1.0.3",
+    "ora": "1.3.0",
+    "progress": "2.0.0",
+    "prompt-confirm": "1.2.0",
+    "request": "2.81.0",
+    "request-progress": "3.0.0"
+  },
+  "devDependencies": {
+    "commander": "^2.12.2"
+  }
+}
