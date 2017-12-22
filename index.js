@@ -30,3 +30,8 @@ commander
     console.log('');
   })
   .parse(process.argv);
+
+  // 默认输入帮助
+  if (!process.argv.slice(2).length) {
+    commander.outputHelp();
+  }

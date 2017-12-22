@@ -1,6 +1,6 @@
 {
   "name": "meetyou-backstage-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "command of meetyou backstage",
   "main": "index.js",
   "scripts": {
@@ -40,9 +40,9 @@
     "progress": "2.0.0",
     "prompt-confirm": "1.2.0",
     "request": "2.81.0",
-    "request-progress": "3.0.0"
+    "request-progress": "3.0.0",
+    "commander": "^2.12.2"
   },
   "devDependencies": {
-    "commander": "^2.12.2"
   }
 }
