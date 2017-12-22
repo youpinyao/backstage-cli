@@ -27,7 +27,7 @@ function upgrade() {
 }
 
 function doUpdate() {
-  const cmd = 'npm install -g meetyou-angular-cli@latest';
+  const cmd = 'npm install -g meetyou-backstage-cli@latest';
 
   console.log();
   console.log(`run: ${chalk.green(cmd)}`);

@@ -2,7 +2,7 @@ const execSeries = require('exec-series');
 
 function info() {
   return new Promise((resolve, reject) => {
-    execSeries(['npm info meetyou-angular-cli'], (err, stdouts, stderrs) => {
+    execSeries(['npm info meetyou-backstage-cli'], (err, stdouts, stderrs) => {
       if (err) {
         reject(err);
         return;

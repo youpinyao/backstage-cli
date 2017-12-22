@@ -1,6 +1,6 @@
 {
   "name": "meetyou-backstage-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "command of meetyou backstage",
   "main": "index.js",
   "scripts": {
